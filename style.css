@@ -1,0 +1,59 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+  }
+  
+  .container {
+    transform: scale(1.5);
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 200px;
+    position: relative;
+  }
+  
+  .display {
+    padding: 0;
+    height: 25px;
+    width: 90%;
+    position: absolute;
+    top: 20px;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+  }
+  
+  .container .buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  .container .buttons .button {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid white;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 15px;
+    text-align: center;
+  }
+  
+  .container .buttons :hover{
+    transition: .2s ease-in;
+    background-color: white;
+    color: black;
+  }
+  #equal {
+    background-color: orangered;
+  }
