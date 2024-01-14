@@ -4,7 +4,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: blue;
+  background-color: rgba(200, 198, 198, 0.928);
+  overflow-y: hidden;
 }
 
 .container {
@@ -63,7 +64,11 @@ body {
 }
 
 #equal {
-  background-color: orangered;
+  background-color: green;
+}
+
+#green {
+  color: green;
 }
 
 
